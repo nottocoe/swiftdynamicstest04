@@ -1,0 +1,25 @@
+[{
+  "_id": {
+    "$oid": "607099b8ade947218c581d56"
+  },
+  "username": "mockup_01",
+  "name": "John Doe",
+  "password": "mockup_01",
+  "approve_position": "approver_no1"
+},{
+  "_id": {
+    "$oid": "607099d59ec87d34807677e1"
+  },
+  "username": "mockup_02",
+  "name": "Nick Fury",
+  "password": "mockup_02",
+  "approve_position": "approver_no2"
+},{
+  "_id": {
+    "$oid": "607099ee9899f23cd0783a6f"
+  },
+  "username": "mockup_03",
+  "name": "Natasha Romanov",
+  "password": "mockup_03",
+  "approve_position": "approver_no3"
+}]
