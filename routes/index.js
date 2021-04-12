@@ -109,8 +109,8 @@ function nodemail(worksheet){
   const transporter = nodemailer.createTransport({
     service: 'gmail',
     auth: {
-      user: 'nottocoe@gmail.com',
-      pass: 'Not_161038'
+      user: 'sender email',
+      pass: 'sender password'
     }
   });
   
