@@ -99,20 +99,7 @@ router.get('/sendnoti', function(req, res, next){
       db.close();
     });
     res.redirect('/');
-    });
-
-  // MongoClient.connect(url, function(err, db) {
-  //   if (err) throw err;
-  //   var dbo = db.db("worksheet");
-  //   var myquery = { worksheet_name: worksheet, approver_no1: 1, approver_no2: 1, approver_no3: 1, noti_send: 0 };
-  //   var newvalues = { $set: { noti_send: 1 } };
-  //   dbo.collection("sheets").updateOne(myquery, newvalues, function(err, res) {
-  //     if (err) throw err;
-  //     nodemail(worksheet);
-  //     db.close();
-  //   });
-  //   res.redirect('/');
-  // });  
+    }); 
 });
 
 function nodemail(worksheet){
